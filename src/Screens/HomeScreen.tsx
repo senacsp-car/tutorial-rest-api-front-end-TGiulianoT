@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 
-type Item = {
+export type Item = {
     id?: number;
     nome: string;
     descricao:string;
